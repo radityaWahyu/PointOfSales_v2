@@ -1,0 +1,104 @@
+Dokumentasi Aplikasi
+
+Fitur - fitur Aplikasi:
+Login User :
+    - Terdiri dari beberapa level user yang bisa dibuat sesuai kebutuhan secara dinamis
+
+Update Profil
+
+Master Data :
+    - Data Kategori :
+        . Nama Kategori
+    - Data Satuan :
+        . Nama Satuan
+    - Data Barang :
+        . barcode
+        . Nama Barang
+        . Kategori
+        . Satuan
+        . Nama Supplier
+        . Stok Minimal
+        . Stok terbaru
+        . harga beli
+        . harga jual
+    - Data Supplier
+        . Nama Supplier
+        . Alamat Supplier
+        . Telpon Supplier
+    - Data Pelanggan (Dipergunakan untuk mendapatkan harga grosir)
+        . Nama Pelanggan
+        . Alamat Pelanggan
+        . Telepon Pelanggan
+
+Pembelian :
+    - Transaksi Pembelian
+        . No Nota
+        . Nama Supplier
+        . Total Pembelian
+        . Type Transaksi [Cash, Kredit]
+        . Jatuh Tempo apabila Kredit
+        . Total Bayar
+        . Detail Transaksi
+            . Nama Barang
+            . Harga beli
+            . Jumlah beli
+            . Sub Total
+    - Retur Pembelian
+Penjualan
+    - Transaksi Penjualan
+        . No Nota
+            . Nama Pelanggan
+            . Total Penjualan
+            . Type Transaksi [Cash, Kredit]
+            . Jatuh Tempo apabila Kredit
+            . Sisa Tagihan
+            . Total Bayar
+            . Detail Transaksi
+                . Nama Barang
+                . Harga beli
+                . Jumlah beli
+                . Sub Total
+    - Retur Penjualan
+Transaksi Lainnya
+    - Stock Opname
+        . Nama Barang
+        . Stock Terkini
+        . Stock terbaru
+        . Selisih
+    - Pengeluaran
+        . No Transaksi
+        . Nama user
+        . Jenis Pengeluaran
+        . Keterangan
+        . Total
+
+Laporan :
+    - Data Barang
+    - Penjualan
+    - Pembelian
+    - Penjualan Per Nota
+    - Hutang
+    - Piutang
+    - Cetak Barcode
+
+History Sistem
+
+Pengaturan
+     - Profil Toko
+        . Nama Toko
+        . Alamat Toko
+        . No telpon Toko
+        . Logo Toko
+    - Jenis Pengeluaran
+    - Hak Akses
+        . Nama Hak Akses
+        . Fitur yang Akses
+    - User
+        . Nama Karyawan
+        . Alamat
+        . Telepon
+        . Username
+        . Password
+        . Hak Akses
+
+
